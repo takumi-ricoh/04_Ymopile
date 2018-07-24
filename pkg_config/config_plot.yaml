@@ -1,0 +1,86 @@
+#plot1: 時系列  
+PLOT1:
+  title: サーモパイル検知温度
+  kind: timeseries
+  pos: [0,0]
+  keys: 
+    [[sensor, couple,     obj, couple1],
+     [sensor, couple,     obj, couple2],
+     [sensor, thermopile, obj, obj1],
+     [sensor, thermopile, obj, obj2],
+     [sensor, thermopile, obj, obj3],
+     [sensor, thermopile, obj, obj4],
+     [sensor, thermopile, obj, obj5],
+     [sensor, thermopile, obj, obj6],
+     [sensor, thermopile, obj, obj7],
+     [sensor, thermopile, obj, obj8],
+     [sensor, thermopile, obj, obj9],
+     [sensor, thermopile, obj, obj10],
+     [sensor, thermopile, obj, obj11],
+     [sensor, thermopile, obj, obj12],
+     [sensor, thermopile, obj, obj13],
+     [sensor, thermopile, obj, obj14],
+     [sensor, thermopile, obj, obj15],
+     [sensor, thermopile, obj, obj16],
+     [sensor, thermopile, obj, obj17],
+     [sensor, thermopile, obj, obj18],
+     [sensor, thermopile, obj, obj19],
+     [sensor, thermopile, obj, obj20],
+     [sensor, thermopile, obj, obj21],
+     [sensor, thermopile, obj, obj22],
+     [sensor, thermopile, obj, obj23],
+     [machine, f22, Sen1, Tar],
+     [machine, f22, Sen1, Cur],
+     ]
+  legend: 
+    [cp1,cp2,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,mTar,mCur] 
+  color:
+    [1,2,3]
+
+
+#plot2: 温度分布  
+PLOT2:
+  title: サーモパイル温度分布
+  kind: distribution
+  pos: [0,1]
+  xx: 
+   [[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],
+    [9.5, 12.5],]
+  keys: #2段階まで指定する
+    [[sensor, thermopile, obj],
+     [sensor, couple, obj],]
+  legend: 
+    [サーモパイル,熱電対] 
+  color:
+    [1,2,3]
+  
+
+#plot3: 中央ログ
+PLOT3:
+  title: センサ1
+  kind: timeseries
+  pos: [1,0]
+  keys: 
+    [[machine, f22, Sen1,    Tar],
+     [machine, f22, Sen1,    Cur],
+     [machine, f26, Heater1, Duty]]
+  legend: 
+    [Tar, Cur, Duty] 
+  color:
+    [1,2,3]
+          
+          
+#plot4: 端部ログ
+PLOT4:
+  title: センサ3
+  kind: timeseries
+  pos: [1,1]
+  keys: 
+    [[machine, f22, Sen3,    Tar],
+     [machine, f22, Sen3,    Cur],
+     [machine, f26, Heater1, Duty]]
+  legend: 
+    [Tar, Cur, Duty] 
+  color:
+    [1,2,3]
+    
