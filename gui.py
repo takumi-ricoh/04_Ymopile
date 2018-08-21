@@ -42,15 +42,16 @@ class GUI(Qtw.QMainWindow):
         menubar = self.menuBar()
         fileMenu = menubar.addMenu('&ファイル')     
         
+        #ファイルを開く
+        self.saveAct = Qtw.QAction('&保存(センサcsvデータ)',self)
+        self.saveAct.triggered.connect(self._showSaveDialog)
+        fileMenu.addAction(self.saveAct)
+
         #セーブ２
-        self.saveAct2 = Qtw.QAction('&保存(logデータ)',self)
+        self.saveAct2 = Qtw.QAction('&保存(ログtxtデータ)',self)
         self.saveAct2.triggered.connect(self._showSaveDialog2)
         fileMenu.addAction(self.saveAct2)
 
-        #ファイルを開く
-        self.openAct = Qtw.QAction('&開く(未対応)',self)
-        self.openAct.triggered.connect(self._showOpenDialog)
-        fileMenu.addAction(self.openAct)
 
         #セーブ１
         self.saveAct = Qtw.QAction('&保存(未対応)',self)
@@ -94,6 +95,7 @@ class GUI(Qtw.QMainWindow):
         self.setCentralWidget(widget)
         self.show()
 
+
     #%% ファイルメニュー
     def _set_menu(self):
         menubar = self.menuBar()
@@ -135,21 +137,23 @@ class GUI(Qtw.QMainWindow):
 
     #%% ダイアログ表示
 
+    #センサファイル
     def _showSaveDialog(self):
-
+ 
         # 第二引数はダイアログのタイトル、第三引数は表示するパス
         self.fname = Qtw.QFileDialog.getSaveFileName(self, 'Open file', '/home')
         print(self.fname)
         # fname[0]は選択したファイルのパス（ファイル名を含む）
-        self.adapter.save(self.fname[0])
+        self.adapter.save_sensor(self.fname[0])
 
+    #ログファイル
     def _showSaveDialog2(self):
 
         # 第二引数はダイアログのタイトル、第三引数は表示するパス
         self.fname = Qtw.QFileDialog.getSaveFileName(self, 'Open file', '/home')
         print(self.fname)
         # fname[0]は選択したファイルのパス（ファイル名を含む）
-        self.adapter.save_raw(self.fname[0])
+        self.adapter.save_log(self.fname[0])
 
     def _showOpenDialog(self):
 

@@ -1,4 +1,4 @@
 COM:
-    PORT : COM14
+    PORT : COM4
     BAUDRATE : 57600
     SAMPLERATE : 0.1

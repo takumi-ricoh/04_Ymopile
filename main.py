@@ -17,6 +17,7 @@ from pkg_config import get_cfg_mdl #グローバル変数
 from pkg_save import save_mdl
 import gui
 import pickle
+import pandas as pd
 #%%キーボード待ち
 def getkey(key):
     return(bool(ctypes.windll.user32.GetAsyncKeyState(key)&0x8000))
@@ -49,12 +50,11 @@ class GUI_Adapter():
         self.plotter.stop()
         print("stop success")
 
-    def save(self,savename):
-        data = pool.get_value()
-        with open(savename, mode='wb') as f:
-            pickle.dump(data, f)
+    def save_sensor(self,savename):
+        data = pd.concat([sensor.couple,sensor.obj,sensor.amb],axis=1)
+        data.to_csv(savename)
 
-    def save_raw(self,savename):
+    def save_log(self,savename):
         data = machine.raw_data
         with open(savename, mode='w') as f:
             for word in data:
