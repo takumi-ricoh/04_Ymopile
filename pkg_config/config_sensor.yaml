@@ -1,5 +1,5 @@
 COM:
-    PORT : COM3
+    PORT : COM5
     BAUDRATE : 115200
     SAMPLERATE : 0.1
 
