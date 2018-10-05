@@ -32,7 +32,7 @@ class Time_Plot():
     def update(self):
         data = self.get_value()
         
-        if len(data["sensor"]["thermopile"]["obj"])>5:
+        if len(data["sensor"]["thermopile"]["obj"])>5: #データを5個以上拾ってから
             #キーの数だけアップデート           
             for idx,key in enumerate(self.keys):
                 
@@ -44,6 +44,9 @@ class Time_Plot():
                 self.myline = self.mylines[idx]
                 self.myline.setData(list(self.sec), list(self.val))
 
+            #x範囲を変更
+            if self.sec > self.xRange:
+                self.plt.setXRange(self.sec[-1] - self.xRange, self.sec[-1])
                                 
 #%%時系列グラフの親クラス
 class Dist_Plot():

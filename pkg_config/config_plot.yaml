@@ -36,6 +36,9 @@ PLOT1:
     [cp1,cp2,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,mTar,mCur] 
   color:
     [1,2,3]
+  xRange: 60 #これ以上経過するとグラフが流れる
+  yRange:
+    [0,300] 
 
 
 #plot2: 温度分布  
@@ -53,6 +56,8 @@ PLOT2:
     [サーモパイル,熱電対] 
   color:
     [1,2,3]
+  yRange:
+    [0,200] 
   
 
 #plot3: 中央ログ
@@ -68,7 +73,9 @@ PLOT3:
     [Tar, Cur, Duty] 
   color:
     [1,2,3]
-          
+  xRange: 60 #これ以上経過するとグラフが流れる
+  yRange:
+    [0,300]           
           
 #plot4: 端部ログ
 PLOT4:
@@ -83,4 +90,6 @@ PLOT4:
     [Tar, Cur, Duty] 
   color:
     [1,2,3]
-    
+  xRange: 60 #これ以上経過するとグラフが流れる
+  yRange:
+    [0,300]     

@@ -64,7 +64,6 @@ class TimePlots(base_p.Time_Plot):
         
     def __init__(self, plt, cfg, pool):
         
-        
         #共通部分
         super().__init__(plt, pool)
 
@@ -73,8 +72,11 @@ class TimePlots(base_p.Time_Plot):
         self.plt.setLabel("bottom",text="time")
         self.plt.setLabel("left",text="temperature")        
         self.plt.showGrid(x=True,y=True)
-        self.plt.setYRange(0,300) 
+        self.plt.setYRange(cfg["yRange"][0],cfg["yRange"][1]) 
         self.plt.addLegend() 
+
+        #x範囲
+        self.xRange = cfg["xRange"]
 
         #グラフの初期化
         self.init_line(cfg['keys'], cfg['legend'])
@@ -91,7 +93,7 @@ class DistPlots(base_p.Dist_Plot):
         self.plt.setLabel("bottom",text="x[mm]")
         self.plt.setLabel("left",text="temperature")        
         self.plt.showGrid(x=True,y=True)
-        self.plt.setYRange(0,300) 
+        self.plt.setYRange(cfg["yRange"][0],cfg["yRange"][1]) 
         self.plt.addLegend() 
 
         #グラフの初期化
