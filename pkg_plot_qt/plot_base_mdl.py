@@ -45,8 +45,10 @@ class Time_Plot():
                 self.myline.setData(list(self.sec), list(self.val))
 
             #x範囲を変更
-            if self.sec > self.xRange:
+            if self.sec[-1] > self.xRange:
                 self.plt.setXRange(self.sec[-1] - self.xRange, self.sec[-1])
+			else:
+				self.plt.setXRange(0, self.xRange)
                                 
 #%%時系列グラフの親クラス
 class Dist_Plot():

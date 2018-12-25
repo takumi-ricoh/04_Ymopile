@@ -221,21 +221,21 @@ void loop()
     ////////////////////////////////
     // Thrmocoiple (SPi)
     ////////////////////////////////
-    measure_channel(CHIP_SELECT, 1, TEMPERATURE);      // Ch 1: Type E Thermocouple
+    //measure_channel(CHIP_SELECT, 1, TEMPERATURE);      // Ch 1: Type E Thermocouple
     //  measure_channel(CHIP_SELECT, 2, TEMPERATURE);      // Ch 2: Off-Chip Diode
-    measure_channel(CHIP_SELECT, 3, TEMPERATURE);      // Ch 3: Type E Thermocouple
+    //measure_channel(CHIP_SELECT, 3, TEMPERATURE);      // Ch 3: Type E Thermocouple
     //  measure_channel(CHIP_SELECT, 4, TEMPERATURE);      // Ch 4: Off-Chip Diode
     //  measure_channel(CHIP_SELECT, 9, TEMPERATURE);      // Ch 9: Off-Chip Diode
 
     //疑似信号
-    //Serial.print(random(100, 200));
-    //Serial.print( "," );
-    //Serial.print(random(100, 200));
-    //Serial.print( "," );
+    Serial.print(random(100, 200));
+    Serial.print( "," );
+    Serial.print(random(100, 200));
+    Serial.print( "," );
 
     for ( i = 0; i < SENSOR_NUM; i++ ) {          // 全部のセンサの測定値を順次読み出す
-      double Tobj = readTobj( SENSOR_BASEADR + i );
-      double Tamb = 10; //ひとまず
+      double Tobj = random(100, 200); //readTobj( SENSOR_BASEADR + i );
+      double Tamb = random(100, 200); //Tobj; //ひとまず
       //if( Tobj > 0.0 ) {                          // 接続されているセンサの結果だけ出力（接続されていないセンサからの戻り値は0[deg]）
       Serial.print( i );                    // 結果を出力する
       Serial.print( ":" );                    // 結果を出力する
