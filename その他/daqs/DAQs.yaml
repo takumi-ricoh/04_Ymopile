@@ -1,0 +1,2059 @@
+﻿SerialPortLog:
+  PortName: COM3
+  BaudRate: 57600
+  DataBits: 8
+  StopBits: 1
+SerialPortSensor:
+  PortName: COM15
+  BaudRate: 115200
+  DataBits: 8
+  StopBits: 1
+  Enable: true
+SeriesUpdatePeriod: 200
+VertlValTop: 30
+VertValBottom: 20
+VertlValInterval: 1
+SensorNum: 24
+SensorPos:
+  Sensor1: -120
+  Sensor2: -110
+  Sensor3: -100
+  Sensor4: -90
+  Sensor5: -80
+  Sensor6: -70
+  Sensor7: -60
+  Sensor8: -50
+  Sensor9: -40
+  Sensor10: -30
+  Sensor11: -20
+  Sensor12: -10
+  Sensor13: 0
+  Sensor14: 10
+  Sensor15: 20
+  Sensor16: 30
+  Sensor17: 40
+  Sensor18: 50
+  Sensor19: 60
+  Sensor20: 70
+  Sensor21: 80
+  Sensor22: 90
+  Sensor23: 100
+  Sensor24: 110
+  Sensor25: 140
+  Sensor26: 150
+  Sensor27: 160
+  Sensor28: 170
+  Sensor29: 180
+  Sensor30: 190
+  Sensor31: 200
+  Sensor32: 210
+  Sensor33: 220
+  Sensor34: 230
+  Sensor35: 240
+  Sensor36: 250
+  Sensor37: 260
+  Sensor38: 270
+  Sensor39: 280
+  Sensor40: 290
+  SensorMax: 300
+ChannelProperties:
+  None:
+    ChannelName: ''
+    Decimals: 2
+    Color: FFFABD6B
+    Visible: true
+  Sensor1:
+    ChannelName: センサー1
+    Decimals: 2
+    Color: FFE7A8D4
+    Enable: true
+    Visible: true
+  Sensor2:
+    ChannelName: センサー2
+    Decimals: 2
+    Color: FF4EB4EF
+    Enable: true
+    Visible: true
+  Sensor3:
+    ChannelName: センサー3
+    Decimals: 2
+    Color: FF7740D0
+    Enable: true
+    Visible: true
+  Sensor4:
+    ChannelName: センサー4
+    Decimals: 2
+    Color: FF8FF8AE
+    Enable: true
+    Visible: true
+  Sensor5:
+    ChannelName: センサー5
+    Decimals: 2
+    Color: FF0BAA33
+    Enable: true
+    Visible: true
+  Sensor6:
+    ChannelName: センサー6
+    Decimals: 2
+    Color: FF605FCC
+    Enable: true
+    Visible: true
+  Sensor7:
+    ChannelName: センサー7
+    Decimals: 2
+    Color: FF3AF560
+    Enable: true
+    Visible: true
+  Sensor8:
+    ChannelName: センサー8
+    Decimals: 2
+    Color: FF78BA6C
+    Enable: true
+    Visible: true
+  Sensor9:
+    ChannelName: センサー9
+    Decimals: 2
+    Color: FFAFC487
+    Enable: true
+    Visible: true
+  Sensor10:
+    ChannelName: センサー10
+    Decimals: 2
+    Color: FF748633
+    Enable: true
+    Visible: true
+  Sensor11:
+    ChannelName: センサー11
+    Decimals: 2
+    Color: FFD5E028
+    Enable: true
+    Visible: true
+  Sensor12:
+    ChannelName: センサー12
+    Decimals: 2
+    Color: FF449C53
+    Enable: true
+    Visible: true
+  Sensor13:
+    ChannelName: センサー13
+    Decimals: 2
+    Color: FFE51476
+    Enable: true
+    Visible: true
+  Sensor14:
+    ChannelName: センサー14
+    Decimals: 2
+    Color: FF93C586
+    Enable: true
+    Visible: true
+  Sensor15:
+    ChannelName: センサー15
+    Decimals: 2
+    Color: FF6B2553
+    Enable: true
+    Visible: true
+  Sensor16:
+    ChannelName: センサー16
+    Decimals: 2
+    Color: FF5C041A
+    Enable: true
+    Visible: true
+  Sensor17:
+    ChannelName: センサー17
+    Decimals: 2
+    Color: FFEC90A2
+    Enable: true
+    Visible: true
+  Sensor18:
+    ChannelName: センサー18
+    Decimals: 2
+    Color: FF5CFB83
+    Enable: true
+    Visible: true
+  Sensor19:
+    ChannelName: センサー19
+    Decimals: 2
+    Color: FF73D7A3
+    Enable: true
+    Visible: true
+  Sensor20:
+    ChannelName: センサー20
+    Decimals: 2
+    Color: FFE051C5
+    Enable: true
+    Visible: true
+  Sensor21:
+    ChannelName: センサー21
+    Decimals: 2
+    Color: FF9EB2DB
+    Enable: true
+    Visible: true
+  Sensor22:
+    ChannelName: センサー22
+    Decimals: 2
+    Color: FFE76DCE
+    Enable: true
+    Visible: true
+  Sensor23:
+    ChannelName: センサー23
+    Decimals: 2
+    Color: FFF5F98D
+    Enable: true
+    Visible: true
+  Sensor24:
+    ChannelName: センサー24
+    Decimals: 2
+    Color: FF60EEBF
+    Enable: true
+    Visible: true
+  Sensor25:
+    ChannelName: センサー25
+    Decimals: 2
+    Color: FFDD1D7E
+    Visible: true
+  Sensor26:
+    ChannelName: センサー26
+    Decimals: 2
+    Color: FFD3E883
+    Visible: true
+  Sensor27:
+    ChannelName: センサー27
+    Decimals: 2
+    Color: FF3E7B85
+    Visible: true
+  Sensor28:
+    ChannelName: センサー28
+    Decimals: 2
+    Color: FF1A76D3
+    Visible: true
+  Sensor29:
+    ChannelName: センサー29
+    Decimals: 2
+    Color: FFB5BBA4
+    Visible: true
+  Sensor30:
+    ChannelName: センサー30
+    Decimals: 2
+    Color: FFFB3BA4
+    Visible: true
+  Sensor31:
+    ChannelName: センサー31
+    Decimals: 2
+    Color: FF7A0C71
+    Visible: true
+  Sensor32:
+    ChannelName: センサー32
+    Decimals: 2
+    Color: FF1145AB
+    Visible: true
+  Sensor33:
+    ChannelName: センサー33
+    Decimals: 2
+    Color: FFA2B58E
+    Visible: true
+  Sensor34:
+    ChannelName: センサー34
+    Decimals: 2
+    Color: FF38F553
+    Visible: true
+  Sensor35:
+    ChannelName: センサー35
+    Decimals: 2
+    Color: FF160B7E
+    Visible: true
+  Sensor36:
+    ChannelName: センサー36
+    Decimals: 2
+    Color: FF76B1C0
+    Visible: true
+  Sensor37:
+    ChannelName: センサー37
+    Decimals: 2
+    Color: FFA21B08
+    Visible: true
+  Sensor38:
+    ChannelName: センサー38
+    Decimals: 2
+    Color: FF429BDA
+    Visible: true
+  Sensor39:
+    ChannelName: センサー39
+    Decimals: 2
+    Color: FFE3A990
+    Visible: true
+  Sensor40:
+    ChannelName: センサー40
+    Decimals: 2
+    Color: FF925BB6
+    Visible: true
+  SensorMax:
+    ChannelName: ''
+    Decimals: 2
+    Color: FF6178EC
+    Visible: true
+  LogFus22SensorTar1:
+    ChannelName: 定着センサー1 目標温度
+    Decimals: 2
+    Color: FF2CF7EE
+    Enable: true
+    Visible: true
+  LogFus22SensorCur1:
+    ChannelName: 定着センサー1 現在温度
+    Decimals: 2
+    Color: FF2A158A
+    Enable: true
+    Visible: true
+  LogFus22SensorSen1:
+    ChannelName: 定着センサー1 検知温度
+    Decimals: 2
+    Color: FFDF62BF
+    Enable: true
+    Visible: true
+  LogFus22SensorAir1:
+    ChannelName: 定着センサー1 雰囲気温度
+    Decimals: 2
+    Color: FF3FF464
+    Enable: true
+    Visible: true
+  LogFus22SensorTar2:
+    ChannelName: 定着センサー2 目標温度
+    Decimals: 2
+    Color: FFD8B07B
+    Enable: true
+    Visible: true
+  LogFus22SensorCur2:
+    ChannelName: 定着センサー2 現在温度
+    Decimals: 2
+    Color: FF9EAF96
+    Enable: true
+    Visible: true
+  LogFus22SensorSen2:
+    ChannelName: 定着センサー2 検知温度
+    Decimals: 2
+    Color: FFF5514B
+    Enable: true
+    Visible: true
+  LogFus22SensorAir2:
+    ChannelName: 定着センサー2 雰囲気温度
+    Decimals: 2
+    Color: FFE46BEC
+    Enable: true
+    Visible: true
+  LogFus22SensorTar3:
+    ChannelName: 定着センサー3 目標温度
+    Decimals: 2
+    Color: FF69649A
+    Enable: true
+    Visible: true
+  LogFus22SensorCur3:
+    ChannelName: 定着センサー3 現在温度
+    Decimals: 2
+    Color: FF11CB5F
+    Enable: true
+    Visible: true
+  LogFus22SensorSen3:
+    ChannelName: 定着センサー3 検知温度
+    Decimals: 2
+    Color: FF958A89
+    Enable: true
+    Visible: true
+  LogFus22SensorAir3:
+    ChannelName: 定着センサー3 雰囲気温度
+    Decimals: 2
+    Color: FF9DF1C5
+    Enable: true
+    Visible: true
+  LogFus22SensorTar4:
+    ChannelName: 定着センサー4 目標温度
+    Decimals: 2
+    Color: FF6A00EB
+    Enable: true
+    Visible: true
+  LogFus22SensorCur4:
+    ChannelName: 定着センサー4 現在温度
+    Decimals: 2
+    Color: FFBF5BB1
+    Enable: true
+    Visible: true
+  LogFus22SensorSen4:
+    ChannelName: 定着センサー4 検知温度
+    Decimals: 2
+    Color: FF958C5D
+    Enable: true
+    Visible: true
+  LogFus22SensorAir4:
+    ChannelName: 定着センサー4 雰囲気温度
+    Decimals: 2
+    Color: FF0FFE79
+    Enable: true
+    Visible: true
+  LogFus22SensorTar5:
+    ChannelName: 定着センサー5 目標温度
+    Decimals: 2
+    Color: FF9541E4
+    Enable: true
+    Visible: true
+  LogFus22SensorCur5:
+    ChannelName: 定着センサー5 現在温度
+    Decimals: 2
+    Color: FFF718AD
+    Enable: true
+    Visible: true
+  LogFus22SensorSen5:
+    ChannelName: 定着センサー5 検知温度
+    Decimals: 2
+    Color: FF6CDBA1
+    Enable: true
+    Visible: true
+  LogFus22SensorAir5:
+    ChannelName: 定着センサー5 雰囲気温度
+    Decimals: 2
+    Color: FFE68F27
+    Enable: true
+    Visible: true
+  LogFus22SensorTar6:
+    ChannelName: 定着センサー6 目標温度
+    Decimals: 2
+    Color: FF04B9F5
+    Enable: true
+    Visible: true
+  LogFus22SensorCur6:
+    ChannelName: 定着センサー6 現在温度
+    Decimals: 2
+    Color: FFF0DA78
+    Enable: true
+    Visible: true
+  LogFus22SensorSen6:
+    ChannelName: 定着センサー6 検知温度
+    Decimals: 2
+    Color: FFC1A13C
+    Enable: true
+    Visible: true
+  LogFus22SensorAir6:
+    ChannelName: 定着センサー6 雰囲気温度
+    Decimals: 2
+    Color: FF56F539
+    Enable: true
+    Visible: true
+  LogFus22SensorTar7:
+    ChannelName: 定着センサー7 目標温度
+    Decimals: 2
+    Color: FF0B4A05
+    Enable: true
+    Visible: true
+  LogFus22SensorCur7:
+    ChannelName: 定着センサー7 現在温度
+    Decimals: 2
+    Color: FF2968FD
+    Enable: true
+    Visible: true
+  LogFus22SensorSen7:
+    ChannelName: 定着センサー7 検知温度
+    Decimals: 2
+    Color: FF288339
+    Enable: true
+    Visible: true
+  LogFus22SensorAir7:
+    ChannelName: 定着センサー7 雰囲気温度
+    Decimals: 2
+    Color: FF9990D3
+    Enable: true
+    Visible: true
+  LogFus22SensorTar8:
+    ChannelName: 定着センサー8 目標温度
+    Decimals: 2
+    Color: FF305883
+    Enable: true
+    Visible: true
+  LogFus22SensorCur8:
+    ChannelName: 定着センサー8 現在温度
+    Decimals: 2
+    Color: FF18F3F2
+    Enable: true
+    Visible: true
+  LogFus22SensorSen8:
+    ChannelName: 定着センサー8 検知温度
+    Decimals: 2
+    Color: FFA7959B
+    Enable: true
+    Visible: true
+  LogFus22SensorAir8:
+    ChannelName: 定着センサー8 雰囲気温度
+    Decimals: 2
+    Color: FFD19B8A
+    Enable: true
+    Visible: true
+  LogFus22SensorTar9:
+    ChannelName: 定着センサー9 目標温度
+    Decimals: 2
+    Color: FF203C97
+    Enable: true
+    Visible: true
+  LogFus22SensorCur9:
+    ChannelName: 定着センサー9 現在温度
+    Decimals: 2
+    Color: FF9BEE7D
+    Enable: true
+    Visible: true
+  LogFus22SensorSen9:
+    ChannelName: 定着センサー9 検知温度
+    Decimals: 2
+    Color: FF3423F2
+    Enable: true
+    Visible: true
+  LogFus22SensorAir9:
+    ChannelName: 定着センサー9 雰囲気温度
+    Decimals: 2
+    Color: FFD336F0
+    Enable: true
+    Visible: true
+  LogFus22SensorTar10:
+    ChannelName: 定着センサー10 目標温度
+    Decimals: 2
+    Color: FFC2FE83
+    Enable: true
+    Visible: true
+  LogFus22SensorCur10:
+    ChannelName: 定着センサー10 現在温度
+    Decimals: 2
+    Color: FF6380B2
+    Enable: true
+    Visible: true
+  LogFus22SensorSen10:
+    ChannelName: 定着センサー10 検知温度
+    Decimals: 2
+    Color: FF2CEBE2
+    Enable: true
+    Visible: true
+  LogFus22SensorAir10:
+    ChannelName: 定着センサー10 雰囲気温度
+    Decimals: 2
+    Color: FF76C8EE
+    Enable: true
+    Visible: true
+  LogFus30PreTar1:
+    ChannelName: 定着センサー1 補正前の目標温度
+    Decimals: 2
+    Color: FF5CA2BA
+    Visible: true
+  LogFus30ReTar1:
+    ChannelName: 定着センサー1 補正後の目標温度
+    Decimals: 2
+    Color: FF24D307
+    Visible: true
+  LogFus30EnvTemp1:
+    ChannelName: 定着センサー1 環境温度
+    Decimals: 2
+    Color: FF3D841F
+    Visible: true
+  LogFus30EnvHum1:
+    ChannelName: 定着センサー1 環境湿度
+    Decimals: 2
+    Color: FF3F3099
+    Visible: true
+  LogFus30Env1:
+    ChannelName: 定着センサー1 環境補正量
+    Decimals: 2
+    Color: FF0866CC
+    Visible: true
+  LogFus30Rep1:
+    ChannelName: 定着センサー1 Req補正量
+    Decimals: 2
+    Color: FFB05D86
+    Visible: true
+  LogFus30PressFb1:
+    ChannelName: 定着センサー1 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF724DAB
+    Visible: true
+  LogFus30Image1:
+    ChannelName: 定着センサー1 画像補正量
+    Decimals: 2
+    Color: FF7C251D
+    Visible: true
+  LogFus30First1:
+    ChannelName: 定着センサー1 通紙前補正量
+    Decimals: 2
+    Color: FF52E75B
+    Visible: true
+  LogFus30PreTar2:
+    ChannelName: 定着センサー2 補正前の目標温度
+    Decimals: 2
+    Color: FF30FBAD
+    Visible: true
+  LogFus30ReTar2:
+    ChannelName: 定着センサー2 補正後の目標温度
+    Decimals: 2
+    Color: FFBECCD9
+    Visible: true
+  LogFus30EnvTemp2:
+    ChannelName: 定着センサー2 環境温度
+    Decimals: 2
+    Color: FF5C96A5
+    Visible: true
+  LogFus30EnvHum2:
+    ChannelName: 定着センサー2 環境湿度
+    Decimals: 2
+    Color: FF3CC05C
+    Visible: true
+  LogFus30Env2:
+    ChannelName: 定着センサー2 環境補正量
+    Decimals: 2
+    Color: FF8D19FA
+    Visible: true
+  LogFus30Rep2:
+    ChannelName: 定着センサー2 Req補正量
+    Decimals: 2
+    Color: FFB26CD4
+    Visible: true
+  LogFus30PressFb2:
+    ChannelName: 定着センサー2 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF6657CC
+    Visible: true
+  LogFus30Image2:
+    ChannelName: 定着センサー2 画像補正量
+    Decimals: 2
+    Color: FFC6B75D
+    Visible: true
+  LogFus30First2:
+    ChannelName: 定着センサー2 通紙前補正量
+    Decimals: 2
+    Color: FF29B047
+    Visible: true
+  LogFus30PreTar3:
+    ChannelName: 定着センサー3 補正前の目標温度
+    Decimals: 2
+    Color: FF1B1E34
+    Visible: true
+  LogFus30ReTar3:
+    ChannelName: 定着センサー3 補正後の目標温度
+    Decimals: 2
+    Color: FF469BC3
+    Visible: true
+  LogFus30EnvTemp3:
+    ChannelName: 定着センサー3 環境温度
+    Decimals: 2
+    Color: FF2E78EE
+    Visible: true
+  LogFus30EnvHum3:
+    ChannelName: 定着センサー3 環境湿度
+    Decimals: 2
+    Color: FF755B45
+    Visible: true
+  LogFus30Env3:
+    ChannelName: 定着センサー3 環境補正量
+    Decimals: 2
+    Color: FF6E2CBC
+    Visible: true
+  LogFus30Rep3:
+    ChannelName: 定着センサー3 Req補正量
+    Decimals: 2
+    Color: FF669EF3
+    Visible: true
+  LogFus30PressFb3:
+    ChannelName: 定着センサー3 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF50F2D6
+    Visible: true
+  LogFus30Image3:
+    ChannelName: 定着センサー3 画像補正量
+    Decimals: 2
+    Color: FF9D57B6
+    Visible: true
+  LogFus30First3:
+    ChannelName: 定着センサー3 通紙前補正量
+    Decimals: 2
+    Color: FF57231A
+    Visible: true
+  LogFus30PreTar4:
+    ChannelName: 定着センサー4 補正前の目標温度
+    Decimals: 2
+    Color: FF25F2DA
+    Visible: true
+  LogFus30ReTar4:
+    ChannelName: 定着センサー4 補正後の目標温度
+    Decimals: 2
+    Color: FFB08175
+    Visible: true
+  LogFus30EnvTemp4:
+    ChannelName: 定着センサー4 環境温度
+    Decimals: 2
+    Color: FF45646C
+    Visible: true
+  LogFus30EnvHum4:
+    ChannelName: 定着センサー4 環境湿度
+    Decimals: 2
+    Color: FF0FBBC6
+    Visible: true
+  LogFus30Env4:
+    ChannelName: 定着センサー4 環境補正量
+    Decimals: 2
+    Color: FF46140C
+    Visible: true
+  LogFus30Rep4:
+    ChannelName: 定着センサー4 Req補正量
+    Decimals: 2
+    Color: FF5DB55B
+    Visible: true
+  LogFus30PressFb4:
+    ChannelName: 定着センサー4 蓄熱量FB補正量
+    Decimals: 2
+    Color: FFB18F47
+    Visible: true
+  LogFus30Image4:
+    ChannelName: 定着センサー4 画像補正量
+    Decimals: 2
+    Color: FF6AA5F1
+    Visible: true
+  LogFus30First4:
+    ChannelName: 定着センサー4 通紙前補正量
+    Decimals: 2
+    Color: FFE540CB
+    Visible: true
+  LogFus30PreTar5:
+    ChannelName: 定着センサー5 補正前の目標温度
+    Decimals: 2
+    Color: FFAB41E3
+    Visible: true
+  LogFus30ReTar5:
+    ChannelName: 定着センサー5 補正後の目標温度
+    Decimals: 2
+    Color: FFE28A5F
+    Visible: true
+  LogFus30EnvTemp5:
+    ChannelName: 定着センサー5 環境温度
+    Decimals: 2
+    Color: FFA475F7
+    Visible: true
+  LogFus30EnvHum5:
+    ChannelName: 定着センサー5 環境湿度
+    Decimals: 2
+    Color: FF661B2E
+    Visible: true
+  LogFus30Env5:
+    ChannelName: 定着センサー5 環境補正量
+    Decimals: 2
+    Color: FFDA4FA6
+    Visible: true
+  LogFus30Rep5:
+    ChannelName: 定着センサー5 Req補正量
+    Decimals: 2
+    Color: FF31A5C7
+    Visible: true
+  LogFus30PressFb5:
+    ChannelName: 定着センサー5 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF72C6B9
+    Visible: true
+  LogFus30Image5:
+    ChannelName: 定着センサー5 画像補正量
+    Decimals: 2
+    Color: FF4F7649
+    Visible: true
+  LogFus30First5:
+    ChannelName: 定着センサー5 通紙前補正量
+    Decimals: 2
+    Color: FFE45EDF
+    Visible: true
+  LogFus30PreTar6:
+    ChannelName: 定着センサー6 補正前の目標温度
+    Decimals: 2
+    Color: FF107413
+    Visible: true
+  LogFus30ReTar6:
+    ChannelName: 定着センサー6 補正後の目標温度
+    Decimals: 2
+    Color: FF7C354F
+    Visible: true
+  LogFus30EnvTemp6:
+    ChannelName: 定着センサー6 環境温度
+    Decimals: 2
+    Color: FF0B5E4F
+    Visible: true
+  LogFus30EnvHum6:
+    ChannelName: 定着センサー6 環境湿度
+    Decimals: 2
+    Color: FFAA9AE7
+    Visible: true
+  LogFus30Env6:
+    ChannelName: 定着センサー6 環境補正量
+    Decimals: 2
+    Color: FF3EB543
+    Visible: true
+  LogFus30Rep6:
+    ChannelName: 定着センサー6 Req補正量
+    Decimals: 2
+    Color: FF001C5B
+    Visible: true
+  LogFus30PressFb6:
+    ChannelName: 定着センサー6 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF3E24D4
+    Visible: true
+  LogFus30Image6:
+    ChannelName: 定着センサー6 画像補正量
+    Decimals: 2
+    Color: FF5428C9
+    Visible: true
+  LogFus30First6:
+    ChannelName: 定着センサー6 通紙前補正量
+    Decimals: 2
+    Color: FFDDECA1
+    Visible: true
+  LogFus30PreTar7:
+    ChannelName: 定着センサー7 補正前の目標温度
+    Decimals: 2
+    Color: FF8803DC
+    Visible: true
+  LogFus30ReTar7:
+    ChannelName: 定着センサー7 補正後の目標温度
+    Decimals: 2
+    Color: FFE29F68
+    Visible: true
+  LogFus30EnvTemp7:
+    ChannelName: 定着センサー7 環境温度
+    Decimals: 2
+    Color: FFFA2EEA
+    Visible: true
+  LogFus30EnvHum7:
+    ChannelName: 定着センサー7 環境湿度
+    Decimals: 2
+    Color: FF2BF4CC
+    Visible: true
+  LogFus30Env7:
+    ChannelName: 定着センサー7 環境補正量
+    Decimals: 2
+    Color: FF4E564E
+    Visible: true
+  LogFus30Rep7:
+    ChannelName: 定着センサー7 Req補正量
+    Decimals: 2
+    Color: FFC9B591
+    Visible: true
+  LogFus30PressFb7:
+    ChannelName: 定着センサー7 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF7B1F90
+    Visible: true
+  LogFus30Image7:
+    ChannelName: 定着センサー7 画像補正量
+    Decimals: 2
+    Color: FFA15B0E
+    Visible: true
+  LogFus30First7:
+    ChannelName: 定着センサー7 通紙前補正量
+    Decimals: 2
+    Color: FF1BF83C
+    Visible: true
+  LogFus30PreTar8:
+    ChannelName: 定着センサー8 補正前の目標温度
+    Decimals: 2
+    Color: FFE43712
+    Visible: true
+  LogFus30ReTar8:
+    ChannelName: 定着センサー8 補正後の目標温度
+    Decimals: 2
+    Color: FF993E25
+    Visible: true
+  LogFus30EnvTemp8:
+    ChannelName: 定着センサー8 環境温度
+    Decimals: 2
+    Color: FFC03F92
+    Visible: true
+  LogFus30EnvHum8:
+    ChannelName: 定着センサー8 環境湿度
+    Decimals: 2
+    Color: FF75E1BD
+    Visible: true
+  LogFus30Env8:
+    ChannelName: 定着センサー8 環境補正量
+    Decimals: 2
+    Color: FF78FBE4
+    Visible: true
+  LogFus30Rep8:
+    ChannelName: 定着センサー8 Req補正量
+    Decimals: 2
+    Color: FF860CA0
+    Visible: true
+  LogFus30PressFb8:
+    ChannelName: 定着センサー8 蓄熱量FB補正量
+    Decimals: 2
+    Color: FFB7FE47
+    Visible: true
+  LogFus30Image8:
+    ChannelName: 定着センサー8 画像補正量
+    Decimals: 2
+    Color: FF296DD6
+    Visible: true
+  LogFus30First8:
+    ChannelName: 定着センサー8 通紙前補正量
+    Decimals: 2
+    Color: FF1350C5
+    Visible: true
+  LogFus30PreTar9:
+    ChannelName: 定着センサー9 補正前の目標温度
+    Decimals: 2
+    Color: FF862F8B
+    Visible: true
+  LogFus30ReTar9:
+    ChannelName: 定着センサー9 補正後の目標温度
+    Decimals: 2
+    Color: FFE79AAD
+    Visible: true
+  LogFus30EnvTemp9:
+    ChannelName: 定着センサー9 環境温度
+    Decimals: 2
+    Color: FF40B80F
+    Visible: true
+  LogFus30EnvHum9:
+    ChannelName: 定着センサー9 環境湿度
+    Decimals: 2
+    Color: FFD79EB3
+    Visible: true
+  LogFus30Env9:
+    ChannelName: 定着センサー9 環境補正量
+    Decimals: 2
+    Color: FFBD1ACF
+    Visible: true
+  LogFus30Rep9:
+    ChannelName: 定着センサー9 Req補正量
+    Decimals: 2
+    Color: FF1F969E
+    Visible: true
+  LogFus30PressFb9:
+    ChannelName: 定着センサー9 蓄熱量FB補正量
+    Decimals: 2
+    Color: FF1BE8A2
+    Visible: true
+  LogFus30Image9:
+    ChannelName: 定着センサー9 画像補正量
+    Decimals: 2
+    Color: FF85D6BA
+    Visible: true
+  LogFus30First9:
+    ChannelName: 定着センサー9 通紙前補正量
+    Decimals: 2
+    Color: FF16D9F2
+    Visible: true
+  LogFus30PreTar10:
+    ChannelName: 定着センサー10 補正前の目標温度
+    Decimals: 2
+    Color: FFAB1A73
+    Visible: true
+  LogFus30ReTar10:
+    ChannelName: 定着センサー10 補正後の目標温度
+    Decimals: 2
+    Color: FFBAC054
+    Visible: true
+  LogFus30EnvTemp10:
+    ChannelName: 定着センサー10 環境温度
+    Decimals: 2
+    Color: FF57D3EE
+    Visible: true
+  LogFus30EnvHum10:
+    ChannelName: 定着センサー10 環境湿度
+    Decimals: 2
+    Color: FF312023
+    Visible: true
+  LogFus30Env10:
+    ChannelName: 定着センサー10 環境補正量
+    Decimals: 2
+    Color: FF4E4BA2
+    Visible: true
+  LogFus30Rep10:
+    ChannelName: 定着センサー10 Req補正量
+    Decimals: 2
+    Color: FFCFA750
+    Visible: true
+  LogFus30PressFb10:
+    ChannelName: 定着センサー10 蓄熱量FB補正量
+    Decimals: 2
+    Color: FFD36134
+    Visible: true
+  LogFus30Image10:
+    ChannelName: 定着センサー10 画像補正量
+    Decimals: 2
+    Color: FF85F976
+    Visible: true
+  LogFus30First10:
+    ChannelName: 定着センサー10 通紙前補正量
+    Decimals: 2
+    Color: FF64C770
+    Visible: true
+  LogFus6MotorVel1:
+    ChannelName: モータ1 線速
+    Decimals: 2
+    Color: FF8737CF
+    Visible: true
+  LogFus6MotorVel2:
+    ChannelName: モータ2 線速
+    Decimals: 2
+    Color: FF176434
+    Visible: true
+  LogFus6MotorVel3:
+    ChannelName: モータ3 線速
+    Decimals: 2
+    Color: FFD29CDC
+    Visible: true
+  LogFus25Plot:
+    ChannelName: Plot使用可能電力(ON/OFF)
+    Decimals: 2
+    Color: FFD51672
+    Visible: true
+  LogFus25Scana:
+    ChannelName: Scana使用可能電力(ON/OFF)
+    Decimals: 2
+    Color: FF9AE709
+    Visible: true
+  LogFus25Fin:
+    ChannelName: Fin使用可能電力(ON/OFF)
+    Decimals: 2
+    Color: FF655314
+    Visible: true
+  LogFus25Level:
+    ChannelName: 使用可能電力レベル
+    Decimals: 2
+    Color: FF033FA9
+    Visible: true
+  LogFus25Pow:
+    ChannelName: 使用可能電力(W)
+    Decimals: 2
+    Color: FF8F2D4D
+    Visible: true
+  LogFus26MVn1:
+    ChannelName: ヒータ1 出力Duty(f26)
+    Decimals: 2
+    Color: FF85D6EC
+    Enable: true
+    Visible: true
+  LogFus26FFDuty1:
+    ChannelName: ヒータ1 補正後FF_Duty
+    Decimals: 2
+    Color: FF0870D0
+    Enable: true
+    Visible: true
+  LogFus26MaxDuty1:
+    ChannelName: ヒータ1 MaxDuty
+    Decimals: 2
+    Color: FF9BE98D
+    Enable: true
+    Visible: true
+  LogFus26Duty1:
+    ChannelName: ヒータ1 Duty
+    Decimals: 2
+    Color: FF348E8A
+    Enable: true
+    Visible: true
+  LogFus26MVn2:
+    ChannelName: ヒータ2 出力Duty(f26)
+    Decimals: 2
+    Color: FF372EBA
+    Enable: true
+    Visible: true
+  LogFus26FFDuty2:
+    ChannelName: ヒータ2 補正後FF_Duty
+    Decimals: 2
+    Color: FFDA9F9E
+    Enable: true
+    Visible: true
+  LogFus26MaxDuty2:
+    ChannelName: ヒータ2 MaxDuty
+    Decimals: 2
+    Color: FF027824
+    Enable: true
+    Visible: true
+  LogFus26Duty2:
+    ChannelName: ヒータ2 Duty
+    Decimals: 2
+    Color: FF45653C
+    Enable: true
+    Visible: true
+  LogFus26MVn3:
+    ChannelName: ヒータ3 出力Duty(f26)
+    Decimals: 2
+    Color: FF4898D9
+    Enable: true
+    Visible: true
+  LogFus26FFDuty3:
+    ChannelName: ヒータ3 補正後FF_Duty
+    Decimals: 2
+    Color: FF921EE7
+    Enable: true
+    Visible: true
+  LogFus26MaxDuty3:
+    ChannelName: ヒータ3 MaxDuty
+    Decimals: 2
+    Color: FF32120C
+    Enable: true
+    Visible: true
+  LogFus26Duty3:
+    ChannelName: ヒータ3 Duty
+    Decimals: 2
+    Color: FFCF5E6D
+    Enable: true
+    Visible: true
+  LogFus27KPM1:
+    ChannelName: ヒータ1 KPM
+    Decimals: 2
+    Color: FF1C90BC
+    Visible: true
+  LogFus27KPD1:
+    ChannelName: ヒータ1 KPD
+    Decimals: 2
+    Color: FFE92B44
+    Visible: true
+  LogFus27KIM1:
+    ChannelName: ヒータ1 KIM
+    Decimals: 2
+    Color: FF9B5882
+    Visible: true
+  LogFus27KID1:
+    ChannelName: ヒータ1 KID
+    Decimals: 2
+    Color: FFE26D9D
+    Visible: true
+  LogFus27KDM1:
+    ChannelName: ヒータ1 KDM
+    Decimals: 2
+    Color: FFB06F1C
+    Visible: true
+  LogFus27KDD1:
+    ChannelName: ヒータ1 KDD
+    Decimals: 2
+    Color: FFDA2E4E
+    Visible: true
+  LogFus27Buff01:
+    ChannelName: ヒータ1 現在温度
+    Decimals: 2
+    Color: FF7C0103
+    Visible: true
+  LogFus27Buff11:
+    ChannelName: ヒータ1 1制御周期前センサー温度
+    Decimals: 2
+    Color: FFA85FF3
+    Visible: true
+  LogFus27Buff21:
+    ChannelName: ヒータ1 2制御周期前センサー温度
+    Decimals: 2
+    Color: FF332F69
+    Visible: true
+  LogFus27Tar1:
+    ChannelName: ヒータ1 目標温度
+    Decimals: 2
+    Color: FFEC689C
+    Visible: true
+  LogFus27dMVn1:
+    ChannelName: ヒータ1 Duty差分値
+    Decimals: 2
+    Color: FF34F50D
+    Visible: true
+  LogFus27MVn11:
+    ChannelName: ヒータ1 1制御周期前のDuty
+    Decimals: 2
+    Color: FF8F3D68
+    Visible: true
+  LogFus27MVn1:
+    ChannelName: ヒータ1 出力Duty(f27)
+    Decimals: 2
+    Color: FF207BF9
+    Visible: true
+  LogFus27KPM2:
+    ChannelName: ヒータ2 KPM
+    Decimals: 2
+    Color: FF1669D7
+    Visible: true
+  LogFus27KPD2:
+    ChannelName: ヒータ2 KPD
+    Decimals: 2
+    Color: FFEEE6FB
+    Visible: true
+  LogFus27KIM2:
+    ChannelName: ヒータ2 KIM
+    Decimals: 2
+    Color: FFFAA0AB
+    Visible: true
+  LogFus27KID2:
+    ChannelName: ヒータ2 KID
+    Decimals: 2
+    Color: FFBFAFD6
+    Visible: true
+  LogFus27KDM2:
+    ChannelName: ヒータ2 KDM
+    Decimals: 2
+    Color: FF2C00CB
+    Visible: true
+  LogFus27KDD2:
+    ChannelName: ヒータ2 KDD
+    Decimals: 2
+    Color: FFADE8AE
+    Visible: true
+  LogFus27Buff02:
+    ChannelName: ヒータ2 現在温度
+    Decimals: 2
+    Color: FF6CD86C
+    Visible: true
+  LogFus27Buff12:
+    ChannelName: ヒータ2 1制御周期前センサー温度
+    Decimals: 2
+    Color: FF2248B8
+    Visible: true
+  LogFus27Buff22:
+    ChannelName: ヒータ2 2制御周期前センサー温度
+    Decimals: 2
+    Color: FF532BAD
+    Visible: true
+  LogFus27Tar2:
+    ChannelName: ヒータ2 目標温度
+    Decimals: 2
+    Color: FF704427
+    Visible: true
+  LogFus27dMVn2:
+    ChannelName: ヒータ2 Duty差分値
+    Decimals: 2
+    Color: FF7840CA
+    Visible: true
+  LogFus27MVn12:
+    ChannelName: ヒータ2 1制御周期前のDuty
+    Decimals: 2
+    Color: FFBF26CA
+    Visible: true
+  LogFus27MVn2:
+    ChannelName: ヒータ2 出力Duty(f27)
+    Decimals: 2
+    Color: FFC5CB4B
+    Visible: true
+  LogFus27KPM3:
+    ChannelName: ヒータ3 KPM
+    Decimals: 2
+    Color: FFBAB01F
+    Visible: true
+  LogFus27KPD3:
+    ChannelName: ヒータ3 KPD
+    Decimals: 2
+    Color: FF52CE3A
+    Visible: true
+  LogFus27KIM3:
+    ChannelName: ヒータ3 KIM
+    Decimals: 2
+    Color: FF33EF5D
+    Visible: true
+  LogFus27KID3:
+    ChannelName: ヒータ3 KID
+    Decimals: 2
+    Color: FF491964
+    Visible: true
+  LogFus27KDM3:
+    ChannelName: ヒータ3 KDM
+    Decimals: 2
+    Color: FF605948
+    Visible: true
+  LogFus27KDD3:
+    ChannelName: ヒータ3 KDD
+    Decimals: 2
+    Color: FF3A024E
+    Visible: true
+  LogFus27Buff03:
+    ChannelName: ヒータ3 現在温度
+    Decimals: 2
+    Color: FF4313F2
+    Visible: true
+  LogFus27Buff13:
+    ChannelName: ヒータ3 1制御周期前センサー温度
+    Decimals: 2
+    Color: FFD3F20F
+    Visible: true
+  LogFus27Buff23:
+    ChannelName: ヒータ3 2制御周期前センサー温度
+    Decimals: 2
+    Color: FF115322
+    Visible: true
+  LogFus27Tar3:
+    ChannelName: ヒータ3 目標温度
+    Decimals: 2
+    Color: FF44011E
+    Visible: true
+  LogFus27dMVn3:
+    ChannelName: ヒータ3 Duty差分値
+    Decimals: 2
+    Color: FF89377C
+    Visible: true
+  LogFus27MVn13:
+    ChannelName: ヒータ3 1制御周期前のDuty
+    Decimals: 2
+    Color: FFEF9FC2
+    Visible: true
+  LogFus27MVn3:
+    ChannelName: ヒータ3 出力Duty(f27)
+    Decimals: 2
+    Color: FFF8D7ED
+    Visible: true
+  LogFus28FF1:
+    ChannelName: ヒータ1 FF(ON/OFF)
+    Decimals: 2
+    Color: FFA370B8
+    Visible: true
+  LogFus28FFDuty1:
+    ChannelName: ''
+    Decimals: 2
+    Color: FFF34236
+    Visible: true
+  LogFus28BaseFF1:
+    ChannelName: ヒータ1 基本FF_Duty
+    Decimals: 2
+    Color: FF3A8531
+    Visible: true
+  LogFus28ReFF1:
+    ChannelName: ヒータ1 補正後FF_Duty
+    Decimals: 2
+    Color: FF1A87FE
+    Visible: true
+  LogFus28EnvFF1:
+    ChannelName: ヒータ1 FF環境温度補正値
+    Decimals: 2
+    Color: FFF38BDB
+    Visible: true
+  LogFus28StaFF1:
+    ChannelName: ヒータ1 FF制御切り替え初期補正値
+    Decimals: 2
+    Color: FFBCAFC0
+    Visible: true
+  LogFus28FFLimit1:
+    ChannelName: ヒータ1 FF制限の有無
+    Decimals: 2
+    Color: FF6B2E1F
+    Visible: true
+  LogFus28FF2:
+    ChannelName: ヒータ2 FF(ON/OFF)
+    Decimals: 2
+    Color: FF129057
+    Visible: true
+  LogFus28FFDuty2:
+    ChannelName: ''
+    Decimals: 2
+    Color: FF53A56D
+    Visible: true
+  LogFus28BaseFF2:
+    ChannelName: ヒータ2 基本FF_Duty
+    Decimals: 2
+    Color: FFE193F9
+    Visible: true
+  LogFus28ReFF2:
+    ChannelName: ヒータ2 補正後FF_Duty
+    Decimals: 2
+    Color: FF0D61E9
+    Visible: true
+  LogFus28EnvFF2:
+    ChannelName: ヒータ2 FF環境温度補正値
+    Decimals: 2
+    Color: FF7B5E6A
+    Visible: true
+  LogFus28StaFF2:
+    ChannelName: ヒータ2 FF制御切り替え初期補正値
+    Decimals: 2
+    Color: FF1F1A69
+    Visible: true
+  LogFus28FFLimit2:
+    ChannelName: ヒータ2 FF制限の有無
+    Decimals: 2
+    Color: FFA28594
+    Visible: true
+  LogFus28FF3:
+    ChannelName: ヒータ3 FF(ON/OFF)
+    Decimals: 2
+    Color: FF70C429
+    Visible: true
+  LogFus28FFDuty3:
+    ChannelName: ''
+    Decimals: 2
+    Color: FFDC1A27
+    Visible: true
+  LogFus28BaseFF3:
+    ChannelName: ヒータ3 基本FF_Duty
+    Decimals: 2
+    Color: FF901C73
+    Visible: true
+  LogFus28ReFF3:
+    ChannelName: ヒータ3 補正後FF_Duty
+    Decimals: 2
+    Color: FF7EFE47
+    Visible: true
+  LogFus28EnvFF3:
+    ChannelName: ヒータ3 FF環境温度補正値
+    Decimals: 2
+    Color: FFBA06C1
+    Visible: true
+  LogFus28StaFF3:
+    ChannelName: ヒータ3 FF制御切り替え初期補正値
+    Decimals: 2
+    Color: FFB6FD45
+    Visible: true
+  LogFus28FFLimit3:
+    ChannelName: ヒータ3 FF制限の有無
+    Decimals: 2
+    Color: FF5F48B5
+    Visible: true
+  LogFus31PaperThick:
+    ChannelName: メディア情報 紙厚
+    Decimals: 2
+    Color: FFFE0FA9
+    Visible: true
+  LogFus31PaperType:
+    ChannelName: メディア情報 紙種
+    Decimals: 2
+    Color: FFBD0651
+    Visible: true
+  LogFus31LEdgePaperSize:
+    ChannelName: メディア情報 紙Edgeサイズ
+    Decimals: 2
+    Color: FFE45463
+    Visible: true
+  LogFus31StoSPaperSize:
+    ChannelName: メディア情報 紙StoSサイズ
+    Decimals: 2
+    Color: FFFB51C3
+    Visible: true
+  LogFus31Color:
+    ChannelName: メディア情報 画像カラーレベル
+    Decimals: 2
+    Color: FF1AABB6
+    Visible: true
+  LogFus31ExitTray:
+    ChannelName: メディア情報 Exit Tray
+    Decimals: 2
+    Color: FFCD3A4E
+    Visible: true
+  LogFus32TarLevel1:
+    ChannelName: 加圧1 目標レベル
+    Decimals: 2
+    Color: FF3495BE
+    Visible: true
+  LogFus32CurLevel1:
+    ChannelName: 加圧1 現在レベル
+    Decimals: 2
+    Color: FF0C0EF9
+    Visible: true
+  LogFus32CurSen1:
+    ChannelName: 加圧1 CurSen
+    Decimals: 2
+    Color: FFB74FB8
+    Visible: true
+  LogFus32Dir1:
+    ChannelName: 加圧1 Dir
+    Decimals: 2
+    Color: FF621836
+    Visible: true
+  LogFus32EdgeDet1:
+    ChannelName: 加圧1 EdgeDet
+    Decimals: 2
+    Color: FFC1AEE7
+    Visible: true
+  LogFus32TarLevel2:
+    ChannelName: 加圧2 目標レベル
+    Decimals: 2
+    Color: FF3CFEBB
+    Visible: true
+  LogFus32CurLevel2:
+    ChannelName: 加圧2 現在レベル
+    Decimals: 2
+    Color: FFC300A3
+    Visible: true
+  LogFus32CurSen2:
+    ChannelName: 加圧2 CurSen
+    Decimals: 2
+    Color: FF56864B
+    Visible: true
+  LogFus32Dir2:
+    ChannelName: 加圧2 Dir
+    Decimals: 2
+    Color: FF41A4BE
+    Visible: true
+  LogFus32EdgeDet2:
+    ChannelName: 加圧2 EdgeDet
+    Decimals: 2
+    Color: FF10284E
+    Visible: true
+  LogFus32TarLevel3:
+    ChannelName: 加圧3 目標レベル
+    Decimals: 2
+    Color: FF3D2144
+    Visible: true
+  LogFus32CurLevel3:
+    ChannelName: 加圧3 現在レベル
+    Decimals: 2
+    Color: FF230C02
+    Visible: true
+  LogFus32CurSen3:
+    ChannelName: 加圧3 CurSen
+    Decimals: 2
+    Color: FF78A694
+    Visible: true
+  LogFus32Dir3:
+    ChannelName: 加圧3 Dir
+    Decimals: 2
+    Color: FFE88BB3
+    Visible: true
+  LogFus32EdgeDet3:
+    ChannelName: 加圧3 EdgeDet
+    Decimals: 2
+    Color: FF58997A
+    Visible: true
+  LogFus33CancelDuty1:
+    ChannelName: キャンセルコイルDuty1
+    Decimals: 2
+    Color: FFD90A18
+    Visible: true
+  LogFus33CancelDuty2:
+    ChannelName: キャンセルコイルDuty2
+    Decimals: 2
+    Color: FF0A6B03
+    Visible: true
+  LogFus33CancelDuty3:
+    ChannelName: キャンセルコイルDuty3
+    Decimals: 2
+    Color: FF270AE8
+    Visible: true
+  LogFus37Pos1:
+    ChannelName: 遮光板 位置
+    Decimals: 2
+    Color: FF88CEF8
+    Visible: true
+  LogFus37TriTh1:
+    ChannelName: 遮光板 TriTh
+    Decimals: 2
+    Color: FFBBF9F8
+    Visible: true
+  LogFus37TriTi1:
+    ChannelName: 遮光板 TriTi
+    Decimals: 2
+    Color: FF5F2B70
+    Visible: true
+  LogFus37LEdgePaperSize1:
+    ChannelName: 遮光板 紙LEdgeサイズ
+    Decimals: 2
+    Color: FF58D8C5
+    Visible: true
+  LogFus37StoSPaperSize1:
+    ChannelName: 遮光板 紙StoSサイズ
+    Decimals: 2
+    Color: FF4BFA74
+    Visible: true
+  LogFus38Th1:
+    ChannelName: 定着センサー1 Th
+    Decimals: 2
+    Color: FF25EAB9
+    Visible: true
+  LogFus38AveTh1:
+    ChannelName: 定着センサー1 AveTh
+    Decimals: 2
+    Color: FF665AE7
+    Visible: true
+  LogFus38AveNum1:
+    ChannelName: 定着センサー1 AveNum
+    Decimals: 2
+    Color: FFAE2715
+    Visible: true
+  LogFus38Th2:
+    ChannelName: 定着センサー2 Th
+    Decimals: 2
+    Color: FF9612F6
+    Visible: true
+  LogFus38AveTh2:
+    ChannelName: 定着センサー2 AveTh
+    Decimals: 2
+    Color: FF516D96
+    Visible: true
+  LogFus38AveNum2:
+    ChannelName: 定着センサー2 AveNum
+    Decimals: 2
+    Color: FFF0EEEC
+    Visible: true
+  LogFus38Th3:
+    ChannelName: 定着センサー3 Th
+    Decimals: 2
+    Color: FF451F3F
+    Visible: true
+  LogFus38AveTh3:
+    ChannelName: 定着センサー3 AveTh
+    Decimals: 2
+    Color: FF226CF5
+    Visible: true
+  LogFus38AveNum3:
+    ChannelName: 定着センサー3 AveNum
+    Decimals: 2
+    Color: FFD573AA
+    Visible: true
+  LogFus38Th4:
+    ChannelName: 定着センサー4 Th
+    Decimals: 2
+    Color: FF361CD8
+    Visible: true
+  LogFus38AveTh4:
+    ChannelName: 定着センサー4 AveTh
+    Decimals: 2
+    Color: FF9AE19E
+    Visible: true
+  LogFus38AveNum4:
+    ChannelName: 定着センサー4 AveNum
+    Decimals: 2
+    Color: FF1DBF47
+    Visible: true
+  LogFus38Th5:
+    ChannelName: 定着センサー5 Th
+    Decimals: 2
+    Color: FF98EA42
+    Visible: true
+  LogFus38AveTh5:
+    ChannelName: 定着センサー5 AveTh
+    Decimals: 2
+    Color: FFE2D62B
+    Visible: true
+  LogFus38AveNum5:
+    ChannelName: 定着センサー5 AveNum
+    Decimals: 2
+    Color: FF9DC868
+    Visible: true
+  LogFus38Th6:
+    ChannelName: 定着センサー6 Th
+    Decimals: 2
+    Color: FF3F846C
+    Visible: true
+  LogFus38AveTh6:
+    ChannelName: 定着センサー6 AveTh
+    Decimals: 2
+    Color: FFE059FE
+    Visible: true
+  LogFus38AveNum6:
+    ChannelName: 定着センサー6 AveNum
+    Decimals: 2
+    Color: FF2B7C07
+    Visible: true
+  LogFus38Th7:
+    ChannelName: 定着センサー7 Th
+    Decimals: 2
+    Color: FF69953C
+    Visible: true
+  LogFus38AveTh7:
+    ChannelName: 定着センサー7 AveTh
+    Decimals: 2
+    Color: FFEA1FB2
+    Visible: true
+  LogFus38AveNum7:
+    ChannelName: 定着センサー7 AveNum
+    Decimals: 2
+    Color: FFA0054E
+    Visible: true
+  LogFus38Th8:
+    ChannelName: 定着センサー8 Th
+    Decimals: 2
+    Color: FF9A7B16
+    Visible: true
+  LogFus38AveTh8:
+    ChannelName: 定着センサー8 AveTh
+    Decimals: 2
+    Color: FF4D3C9D
+    Visible: true
+  LogFus38AveNum8:
+    ChannelName: 定着センサー8 AveNum
+    Decimals: 2
+    Color: FF69D939
+    Visible: true
+  LogFus38Th9:
+    ChannelName: 定着センサー9 Th
+    Decimals: 2
+    Color: FFB52AFD
+    Visible: true
+  LogFus38AveTh9:
+    ChannelName: 定着センサー9 AveTh
+    Decimals: 2
+    Color: FF69438B
+    Visible: true
+  LogFus38AveNum9:
+    ChannelName: 定着センサー9 AveNum
+    Decimals: 2
+    Color: FF1A3D48
+    Visible: true
+  LogFus38Th10:
+    ChannelName: 定着センサー10 Th
+    Decimals: 2
+    Color: FFA7A0C3
+    Visible: true
+  LogFus38AveTh10:
+    ChannelName: 定着センサー10 AveTh
+    Decimals: 2
+    Color: FF023A65
+    Visible: true
+  LogFus38AveNum10:
+    ChannelName: 定着センサー10 AveNum
+    Decimals: 2
+    Color: FF8A4411
+    Visible: true
+  LogFus35TarLevel:
+    ChannelName: ウェブ接離 目標レベル
+    Decimals: 2
+    Color: FF7F55D1
+    Visible: true
+  LogFus35CurLevel:
+    ChannelName: ウェブ接離 現在レベル
+    Decimals: 2
+    Color: FFE20152
+    Visible: true
+  LogFus35CurSen:
+    ChannelName: ウェブ接離 CurSen
+    Decimals: 2
+    Color: FF8CB893
+    Visible: true
+  LogFus35Dir:
+    ChannelName: ウェブ接離 Dir
+    Decimals: 2
+    Color: FF3D1D62
+    Visible: true
+  LogFus35EdgeDet:
+    ChannelName: ウェブ接離 EdgeDet
+    Decimals: 2
+    Color: FF6952CA
+    Visible: true
+  LogFus36TarLevel:
+    ChannelName: リフレッシュ接離 目標レベル
+    Decimals: 2
+    Color: FF29FC9C
+    Visible: true
+  LogFus36CurLevel:
+    ChannelName: リフレッシュ接離 現在レベル
+    Decimals: 2
+    Color: FF5EE0C3
+    Visible: true
+  LogFus36CurSen:
+    ChannelName: リフレッシュ接離 CurSen
+    Decimals: 2
+    Color: FF28C8A6
+    Visible: true
+  LogFus36Dir:
+    ChannelName: リフレッシュ接離 Dir
+    Decimals: 2
+    Color: FFA29F77
+    Visible: true
+  LogFus36EdgeDet:
+    ChannelName: リフレッシュ接離 EdgeDet
+    Decimals: 2
+    Color: FFC30538
+    Visible: true
+  LogFus1ReloadPermit1:
+    ChannelName: センサー1 リロード条件
+    Decimals: 2
+    Color: FFD9BE45
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit2:
+    ChannelName: センサー2 リロード条件
+    Decimals: 2
+    Color: FFE5F9EC
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit3:
+    ChannelName: センサー3 リロード条件
+    Decimals: 2
+    Color: FF609B47
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit4:
+    ChannelName: センサー4 リロード条件
+    Decimals: 2
+    Color: FF1161B9
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit5:
+    ChannelName: センサー5 リロード条件
+    Decimals: 2
+    Color: FF1D47B0
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit6:
+    ChannelName: センサー6 リロード条件
+    Decimals: 2
+    Color: FF9C08C9
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit7:
+    ChannelName: センサー7 リロード条件
+    Decimals: 2
+    Color: FF67778F
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit8:
+    ChannelName: センサー8 リロード条件
+    Decimals: 2
+    Color: FFB37A11
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit9:
+    ChannelName: センサー9 リロード条件
+    Decimals: 2
+    Color: FF52C0EE
+    Enable: true
+    Visible: true
+  LogFus1ReloadPermit10:
+    ChannelName: センサー10 リロード条件
+    Decimals: 2
+    Color: FF29F848
+    Enable: true
+    Visible: true
+  LogFus1FreePermit1:
+    ChannelName: センサー1 給紙許可
+    Decimals: 2
+    Color: FF479C2C
+    Enable: true
+    Visible: true
+  LogFus1FreePermit2:
+    ChannelName: センサー2 給紙許可
+    Decimals: 2
+    Color: FFF04E3B
+    Enable: true
+    Visible: true
+  LogFus1FreePermit3:
+    ChannelName: センサー3 給紙許可
+    Decimals: 2
+    Color: FF25EF09
+    Enable: true
+    Visible: true
+  LogFus1FreePermit4:
+    ChannelName: センサー4 給紙許可
+    Decimals: 2
+    Color: FFE3F295
+    Enable: true
+    Visible: true
+  LogFus1FreePermit5:
+    ChannelName: センサー5 給紙許可
+    Decimals: 2
+    Color: FF2A73FE
+    Enable: true
+    Visible: true
+  LogFus1FreePermit6:
+    ChannelName: センサー6 給紙許可
+    Decimals: 2
+    Color: FF50E6E7
+    Enable: true
+    Visible: true
+  LogFus1FreePermit7:
+    ChannelName: センサー7 給紙許可
+    Decimals: 2
+    Color: FFE0E45D
+    Enable: true
+    Visible: true
+  LogFus1FreePermit8:
+    ChannelName: センサー8 給紙許可
+    Decimals: 2
+    Color: FF7EBBBA
+    Enable: true
+    Visible: true
+  LogFus1FreePermit9:
+    ChannelName: センサー9 給紙許可
+    Decimals: 2
+    Color: FF586CD5
+    Enable: true
+    Visible: true
+  LogFus1FreePermit10:
+    ChannelName: センサー10 給紙許可
+    Decimals: 2
+    Color: FF937809
+    Enable: true
+    Visible: true
+  LogFusMax:
+    ChannelName: ''
+    Decimals: 2
+    Color: FF1D2BCB
+    Visible: true
+  LogFus1ReloadPermit:
+    ChannelName: リロード条件(All Ok)
+    Decimals: 2
+    Color: FF2094DC
+    Enable: true
+    Visible: true
+  LogFus1FreePermit:
+    ChannelName: 給紙許可(All Ok)
+    Decimals: 2
+    Color: FFDAED07
+    Enable: true
+    Visible: true
+  LogFus1Init:
+    ChannelName: （初期）初期状態
+    Decimals: 2
+    Color: FF5155DA
+    Enable: true
+    Visible: true
+  LogFus1WarmUpHeat:
+    ChannelName: （立上げ）プレ回転前
+    Decimals: 2
+    Color: FFCD7984
+    Enable: true
+    Visible: true
+  LogFus1AfterReloadRotation:
+    ChannelName: （待機）リロード後回転
+    Decimals: 2
+    Color: FF110AAF
+    Enable: true
+    Visible: true
+  LogFus1PrintReady:
+    ChannelName: （待機）印刷準備
+    Decimals: 2
+    Color: FFCC3AF1
+    Enable: true
+    Visible: true
+  LogFus1ReadyStanby:
+    ChannelName: （待機）Ready待機
+    Decimals: 2
+    Color: FF039571
+    Enable: true
+    Visible: true
+  LogFus1Preheat:
+    ChannelName: （待機）予熱
+    Decimals: 2
+    Color: FF3AF88A
+    Enable: true
+    Visible: true
+  LogFus1LowPower:
+    ChannelName: （待機）低電力
+    Decimals: 2
+    Color: FF672307
+    Enable: true
+    Visible: true
+  LogFus1OffSleep:
+    ChannelName: （待機）スリープ
+    Decimals: 2
+    Color: FF2B196C
+    Enable: true
+    Visible: true
+  LogFus1AllOff:
+    ChannelName: （待機）オールオフ
+    Decimals: 2
+    Color: FFB1C2D0
+    Enable: true
+    Visible: true
+  LogFus1BeforeJob:
+    ChannelName: （印刷）通紙前
+    Decimals: 2
+    Color: FF5C89C5
+    Enable: true
+    Visible: true
+  LogFus1DuringJob:
+    ChannelName: （印刷）通紙中
+    Decimals: 2
+    Color: FF05EE20
+    Enable: true
+    Visible: true
+  LogFus1AfterJob:
+    ChannelName: （印刷）通紙後
+    Decimals: 2
+    Color: FF3659F5
+    Enable: true
+    Visible: true
+  LogFus1Stop:
+    ChannelName: （停止）異常
+    Decimals: 2
+    Color: FFA86221
+    Enable: true
+    Visible: true
+  LogFusDetailStateA:
+    ChannelName: 回転待ち、温度安定待ち
+    Decimals: 2
+    Color: FFDF44D0
+    Enable: true
+    Visible: true
+  LogFusDetailStateB:
+    ChannelName: 駆動前ヒータOFF回転
+    Decimals: 2
+    Color: FF3F876D
+    Enable: true
+    Visible: true
+  LogFusDetailStateC:
+    ChannelName: 加熱回転
+    Decimals: 2
+    Color: FF43D269
+    Enable: true
+    Visible: true
+  LogFusDetailStateD:
+    ChannelName: 温調回転
+    Decimals: 2
+    Color: FFB2D228
+    Enable: true
+    Visible: true
+  LogFusDetailStateEA:
+    ChannelName: 均熱化回転
+    Decimals: 2
+    Color: FF435DAF
+    Enable: true
+    Visible: true
+  LogFusDetailStateEB:
+    ChannelName: リフレッシュ実行
+    Decimals: 2
+    Color: FF20489C
+    Enable: true
+    Visible: true
+  LogFusDetailStateEC:
+    ChannelName: JOB0蓄熱
+    Decimals: 2
+    Color: FFAFF1A4
+    Enable: true
+    Visible: true
+  LogFusDetailStateED:
+    ChannelName: 起動後ヒータOFF回転
+    Decimals: 2
+    Color: FF4C11EE
+    Enable: true
+    Visible: true
+  LogFusDetailStateTT:
+    ChannelName: 停止待機
+    Decimals: 2
+    Color: FF386F7B
+    Enable: true
+    Visible: true
+  LogFusDetailStateTK:
+    ChannelName: 過昇温防止回転
+    Decimals: 2
+    Color: FFECE0A5
+    Enable: true
+    Visible: true
+  LogFusDetailStateTO:
+    ChannelName: 温度維持回転
+    Decimals: 2
+    Color: FFB16DF8
+    Enable: true
+    Visible: true
+  LogFusDetailStateTB:
+    ChannelName: 微小回転
+    Decimals: 2
+    Color: FF2B9458
+    Enable: true
+    Visible: true
+  LogFusStatusMax:
+    ChannelName: ''
+    Decimals: 2
+    Color: FF678B7F
+    Visible: true
+  LogJobPGO:
+    ChannelName: PGO信号
+    Decimals: 2
+    Color: FF87E6CB
+    Enable: true
+    Visible: true
+  LogJobPPR:
+    ChannelName: PPR信号
+    Decimals: 2
+    Color: FF7D24F5
+    Enable: true
+    Visible: true
+  ConfigFusUpperLimitTemp:
+    ChannelName: 定着上限温度
+    Decimals: 2
+    Color: FF6B563A
+    Visible: true
+  ConfigFusLowerLimitTemp:
+    ChannelName: 定着下限温度
+    Decimals: 2
+    Color: FF267912
+    Visible: true
+  Max:
+    ChannelName: ''
+    Decimals: 2
+    Color: FFFE633E
+    Visible: true
