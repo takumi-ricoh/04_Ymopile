@@ -3,9 +3,8 @@
 //    2018/03/22
 //
 //   複数のセンサの検出温度（Tobj）を表示
-//　 センサのアドレスは、0x5Aからインクリメント
-//
-//   センサには、0x5Aからアドレスを振っておくこと。
+//　 定着用センサのアドレスは、0x5Aからインクリメント
+//　 加圧用センサのアドレスは、0x30からインクリメント
 //   1chあたりの測定時間は、1.2[ms]。24個読むのには約30[ms]要する。
 //   センサのデータ更新時間が100[ms]のため、同じセンサを読み出すのは100[ms]以上経過後にする処理を入れてある。
 //   どのセンサの出力値かわかるように、データの前にセンサ番号を追加。
@@ -15,6 +14,10 @@
 #define WAIT 300            //Wait時間（同一センサを読む時の間隔が、100[ms]以上になるようにする）
 #define SENSOR_NUM 24       //センサ数
 #define SENSOR_BASEADR 0x5A //センサのベースアドレス
+
+//加圧センサ
+#define PRESS_SENSOR_NUM 23       //加圧センサ数
+#define PRESS_SENSOR_BASEADR 0x30 //加圧センサのベースアドレス
 
 unsigned long previousMillis = millis();
 unsigned long time;
@@ -46,6 +49,7 @@ void loop() {
     //ダミー熱電対データ
     Serial.print("0,0,");
 
+    //定着用センサ
     for ( i = 0; i < SENSOR_NUM; i++ ) {          
       // 全部のセンサの測定値を順次読み出す
       double Tobj = readTobj( SENSOR_BASEADR + i );
@@ -53,6 +57,30 @@ void loop() {
 
       if( Tobj > 0.0 ) {                          // 接続されているセンサの結果だけ出力（接続されていないセンサからの戻り値は0[deg]）
         Serial.print( i );                   // 結果を出力する
+        Serial.print( ":" );                     // 結果を出力する
+        Serial.print( Tobj );                    // 結果を出力する
+        Serial.print( ":" );                     // 結果を出力する
+        Serial.print( Tamb );                    // 結果を出力する
+        Serial.print(",");                       // 区切り文字を出力する
+      }     
+    }
+    
+    //間をあけるためのダミーデータ
+    Serial.print(24);
+    Serial.print(":");
+    Serial.print(0);//Tobjのダミー
+    Serial.print(":");
+    Serial.print(0);//Tambのダミー
+    Serial.print(",");
+    
+    //加圧用センサ
+    for ( i = 0; i < PRESS_SENSOR_NUM; i++ ) {          
+      // 全部のセンサの測定値を順次読み出す
+      double Tobj = readTobj( PRESS_SENSOR_BASEADR + i );
+      double Tamb = readTamb( PRESS_SENSOR_BASEADR + i );
+
+      if( Tobj > 0.0 ) {                          // 接続されているセンサの結果だけ出力（接続されていないセンサからの戻り値は0[deg]）
+        Serial.print( i+25 );                   // 結果を出力する
         Serial.print( ":" );                     // 結果を出力する
         Serial.print( Tobj );                    // 結果を出力する
         Serial.print( ":" );                     // 結果を出力する
